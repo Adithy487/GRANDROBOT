@@ -26,7 +26,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-**Hello {}, My Name is {}!** 
+**Hello {}, My Name is {Wait_devil}!** 
 I am an **SUPERB**  group management bot.
 You can find the list of available commands with /help.
 
@@ -34,7 +34,7 @@ You can find the list of available commands with /help.
 
 HELP_STRINGS = """
 
-Hello! my name *{Kalippante kaanthari}*.
+Hello! my name *{}*.
 
 *Main* commands available:
  - /start: start the bot
@@ -143,7 +143,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
                                                                        url="t.me/@Madfurysk")],
-                                                                                   [InlineKeyboardButton(text="ADD Kalippante kaanthari TO YOUR GROUP",
+                                                                                   [InlineKeyboardButton(text="ADD Wait_devil BOT TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Source Code",
                                                                        url="https://github.com/legendx22/GRANDROBOT")
